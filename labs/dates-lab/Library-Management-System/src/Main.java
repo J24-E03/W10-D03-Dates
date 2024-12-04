@@ -271,7 +271,7 @@ public class Main {
                     LocalDate currentDate = LocalDate.now();
                     book.setAvailable(true);
                     book.setReturnDate(currentDate);
-                    if (book.getDueDate().isBefore(currentDate)) {
+                    if (book.getDueDate() != null && book.getDueDate().isBefore(currentDate)) {
                         System.out.println("The book is overdue! your fine will be " + book.getDueDate().until(currentDate).getDays() + "$.");
                     }
                     System.out.println("You have successfully returned " + book.getTitle() + ". Thank you!");
