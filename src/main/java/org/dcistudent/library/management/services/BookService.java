@@ -2,7 +2,7 @@ package org.dcistudent.library.management.services;
 
 import org.dcistudent.library.management.entities.books.Book;
 import org.dcistudent.library.management.exceptions.entities.books.BookNotFoundException;
-import org.dcistudent.library.management.managers.books.BookManager;
+import org.dcistudent.library.management.managers.BookManager;
 import org.dcistudent.library.management.models.books.states.Borrow;
 import org.dcistudent.library.management.models.books.states.Due;
 import org.dcistudent.library.management.models.books.states.HandBack;

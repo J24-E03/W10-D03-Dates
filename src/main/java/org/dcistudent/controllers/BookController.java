@@ -1,4 +1,4 @@
-package org.dcistudent.controllers.books;
+package org.dcistudent.controllers;
 
 import org.dcistudent.library.management.services.BookService;
 

@@ -1,4 +1,4 @@
-package org.dcistudent.library.management.managers.books;
+package org.dcistudent.library.management.managers;
 
 import org.dcistudent.library.management.entities.books.Book;
 import org.dcistudent.library.management.exceptions.entities.books.BookNotFoundException;
