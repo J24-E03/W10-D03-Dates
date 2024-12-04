@@ -1,6 +1,7 @@
 import javax.swing.text.html.HTMLDocument;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -272,7 +273,7 @@ public class Main {
                     book.setAvailable(true);
                     book.setReturnDate(currentDate);
                     if (book.getDueDate() != null && book.getDueDate().isBefore(currentDate)) {
-                        System.out.println("The book is overdue! your fine will be " + book.getDueDate().until(currentDate).getDays() + "$.");
+                        System.out.println("The book is overdue! your fine will be " + ChronoUnit.DAYS.between(book.getDueDate(), currentDate) + "$.");
                     }
                     System.out.println("You have successfully returned " + book.getTitle() + ". Thank you!");
                     return;
@@ -289,7 +290,7 @@ public class Main {
         LocalDate currentDate = LocalDate.now();
         for (Book book : books) {
             if (book.getReturnDate() == null && book.getDueDate() != null && book.getDueDate().isBefore(currentDate)) {
-                System.out.println(book + " overdue for " + book.getDueDate().until(currentDate).getDays() + " days.");
+                System.out.println(book + " overdue for " + ChronoUnit.DAYS.between(book.getDueDate(), currentDate) + " days.");
             }
         }
     }
@@ -338,7 +339,7 @@ public class Main {
         boolean found = false;
         for (Book book : books) {
             if (!book.isAvailable() && book.getDueDate() != null && book.getDueDate().isAfter(LocalDate.now())) {
-                if (LocalDate.now().until(book.getDueDate()).getDays() <= NOTIFY_PERIOD) {
+                if (ChronoUnit.DAYS.between(LocalDate.now(), book.getDueDate()) <= NOTIFY_PERIOD) {
                     found = true;
                     System.out.println(book + " hast DueDate on: " + book.getDueDate());
                 }

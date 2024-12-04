@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db421772-602f-4e34-bbf8-d20d4418f178" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BONUS-dates-lab/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BONUS-dates-lab/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BONUS-dates-lab/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BONUS-dates-lab/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BONUS-dates-lab/BONUS-dates-lab.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2pkzxGU1vQ4FL24jfr8LLXmZmI7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/student/Desktop/DCI/Week10/Day3/Lab/W10-D03-Dates/labs/dates-lab"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db421772-602f-4e34-bbf8-d20d4418f178" name="Changes" comment="" />
+      <created>1733325105477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733325105477</updated>
+    </task>
+    <servers />
+  </component>
+</project>
